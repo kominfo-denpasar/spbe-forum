@@ -1,11 +1,10 @@
-## spbe-forum
+## spbe-forumCancel changes
 
 Sistem diskusi
 
 ### Stacks
 
 - Laravel
-- Typescript
 
 ### Installation
 
