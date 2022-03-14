@@ -6470,6 +6470,70 @@
             "install-path": "../ramsey/uuid"
         },
         {
+            "name": "realodix/flarum-ext-indonesian",
+            "version": "2.1.0",
+            "version_normalized": "2.1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/realodix/flarum-ext-indonesian.git",
+                "reference": "690969ea63356774167c6753fea882dc201d6da0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/690969ea63356774167c6753fea882dc201d6da0",
+                "reference": "690969ea63356774167c6753fea882dc201d6da0",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^1.2.0"
+            },
+            "time": "2022-03-01T11:17:48+00:00",
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Indonesian",
+                    "icon": {
+                        "image": "icon.svg",
+                        "backgroundColor": "#00247d",
+                        "backgroundSize": "cover",
+                        "backgroundPosition": "center"
+                    }
+                },
+                "flarum-locale": {
+                    "code": "id",
+                    "title": "Indonesian"
+                },
+                "branch-alias": {
+                    "dev-master": "2.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Budi Hermawan",
+                    "email": "budi03@gmail.com"
+                }
+            ],
+            "description": "Indonesian language pack.",
+            "keywords": [
+                "flarum",
+                "flarum-extension",
+                "indonesia",
+                "indonesian-language",
+                "translation"
+            ],
+            "support": {
+                "docs": "https://discuss.flarum.org/d/1358-indonesian-language-pack",
+                "issues": "https://github.com/realodix/flarum-ext-indonesian/issues",
+                "source": "https://github.com/realodix/flarum-ext-indonesian"
+            },
+            "install-path": "../realodix/flarum-ext-indonesian"
+        },
+        {
             "name": "s9e/regexp-builder",
             "version": "1.4.6",
             "version_normalized": "1.4.6.0",

@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => 'v1.2.0',
-        'version' => '1.2.0.0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => 'ddecba9e9147c6c54bbbd3c9cd2573a42b100b73',
         'name' => 'flarum/flarum',
         'dev' => true,
     ),
@@ -218,12 +218,12 @@
             'dev_requirement' => false,
         ),
         'flarum/flarum' => array(
-            'pretty_version' => 'v1.2.0',
-            'version' => '1.2.0.0',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => 'ddecba9e9147c6c54bbbd3c9cd2573a42b100b73',
             'dev_requirement' => false,
         ),
         'flarum/lang-english' => array(
@@ -835,8 +835,8 @@
         'psr/log-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0|2.0',
-                1 => '1.0.0',
+                0 => '1.0.0',
+                1 => '1.0|2.0',
             ),
         ),
         'psr/simple-cache' => array(
@@ -888,6 +888,15 @@
             'install_path' => __DIR__ . '/../ramsey/uuid',
             'aliases' => array(),
             'reference' => 'fc9bb7fb5388691fd7373cd44dcb4d63bbcf24df',
+            'dev_requirement' => false,
+        ),
+        'realodix/flarum-ext-indonesian' => array(
+            'pretty_version' => '2.1.0',
+            'version' => '2.1.0.0',
+            'type' => 'flarum-extension',
+            'install_path' => __DIR__ . '/../realodix/flarum-ext-indonesian',
+            'aliases' => array(),
+            'reference' => '690969ea63356774167c6753fea882dc201d6da0',
             'dev_requirement' => false,
         ),
         'rhumsaa/uuid' => array(
