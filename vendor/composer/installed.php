@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '9650678f9f327946cd5a806e4c71e04b69ec0510',
+        'reference' => 'cd0ef0b1323d52c7af71c950f03105c52483898d',
         'name' => 'flarum/flarum',
         'dev' => true,
     ),
@@ -223,7 +223,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '9650678f9f327946cd5a806e4c71e04b69ec0510',
+            'reference' => 'cd0ef0b1323d52c7af71c950f03105c52483898d',
             'dev_requirement' => false,
         ),
         'flarum/lang-english' => array(
@@ -341,6 +341,15 @@
             'install_path' => __DIR__ . '/../fof/links',
             'aliases' => array(),
             'reference' => '5c65cb23d056e365f03dea6b1b65273ae6f3487c',
+            'dev_requirement' => false,
+        ),
+        'fof/pages' => array(
+            'pretty_version' => '1.0.2',
+            'version' => '1.0.2.0',
+            'type' => 'flarum-extension',
+            'install_path' => __DIR__ . '/../fof/pages',
+            'aliases' => array(),
+            'reference' => '3627164cdec6b53431a3635eb04d2f16eb18b85c',
             'dev_requirement' => false,
         ),
         'franzl/whoops-middleware' => array(
@@ -942,6 +951,12 @@
             'dev_requirement' => false,
         ),
         'sijad/flarum-ext-links' => array(
+            'dev_requirement' => false,
+            'replaced' => array(
+                0 => '*',
+            ),
+        ),
+        'sijad/flarum-ext-pages' => array(
             'dev_requirement' => false,
             'replaced' => array(
                 0 => '*',

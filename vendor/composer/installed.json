@@ -2751,6 +2751,83 @@
             "install-path": "../fof/links"
         },
         {
+            "name": "fof/pages",
+            "version": "1.0.2",
+            "version_normalized": "1.0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfFlarum/pages.git",
+                "reference": "3627164cdec6b53431a3635eb04d2f16eb18b85c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/pages/zipball/3627164cdec6b53431a3635eb04d2f16eb18b85c",
+                "reference": "3627164cdec6b53431a3635eb04d2f16eb18b85c",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "flarum/core": "^1.2"
+            },
+            "replace": {
+                "sijad/flarum-ext-pages": "*"
+            },
+            "time": "2022-03-13T20:53:37+00:00",
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "FoF Pages",
+                    "category": "feature",
+                    "icon": {
+                        "name": "far fa-file-alt",
+                        "backgroundColor": "#e74c3c",
+                        "color": "#fff"
+                    }
+                },
+                "flagrow": {
+                    "discuss": "https://discuss.flarum.org/d/18301"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "FoF\\Pages\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sajjad Hashemian",
+                    "email": "wolaws@gmail.com"
+                },
+                {
+                    "name": "David Sevilla Martín",
+                    "email": "david.s@redevs.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Create custom pages with Flarum",
+            "homepage": "https://friendsofflarum.org",
+            "keywords": [
+                "flarum"
+            ],
+            "support": {
+                "forum": "https://discuss.flarum.org/d/18301",
+                "issues": "https://github.com/FriendsOfFlarum/pages/issues",
+                "source": "https://github.com/FriendsOfFlarum/pages"
+            },
+            "funding": [
+                {
+                    "url": "https://opencollective.com/fof/donate",
+                    "type": "website"
+                }
+            ],
+            "install-path": "../fof/pages"
+        },
+        {
             "name": "franzl/whoops-middleware",
             "version": "2.0.0",
             "version_normalized": "2.0.0.0",

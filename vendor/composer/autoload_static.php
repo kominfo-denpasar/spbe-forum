@@ -182,6 +182,7 @@ class ComposerStaticInit3d115c13b5f1a350577763d289cd8705
         'F' => 
         array (
             'Franzl\\Middleware\\Whoops\\' => 25,
+            'FoF\\Pages\\' => 10,
             'FoF\\Links\\' => 10,
             'Flarum\\Tags\\' => 12,
             'Flarum\\Suspend\\' => 15,
@@ -563,6 +564,10 @@ class ComposerStaticInit3d115c13b5f1a350577763d289cd8705
         'Franzl\\Middleware\\Whoops\\' => 
         array (
             0 => __DIR__ . '/..' . '/franzl/whoops-middleware/src',
+        ),
+        'FoF\\Pages\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fof/pages/src',
         ),
         'FoF\\Links\\' => 
         array (
