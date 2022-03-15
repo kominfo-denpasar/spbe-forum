@@ -38,6 +38,7 @@
         "flarum/subscriptions": "*",
         "flarum/suspend": "*",
         "flarum/tags": "*",
+        "fof/links": "^1.0",
         "realodix/flarum-ext-indonesian": "^2.1"
     },
     "config": {

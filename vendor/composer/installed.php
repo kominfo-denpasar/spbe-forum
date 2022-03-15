@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'ddecba9e9147c6c54bbbd3c9cd2573a42b100b73',
+        'reference' => '9650678f9f327946cd5a806e4c71e04b69ec0510',
         'name' => 'flarum/flarum',
         'dev' => true,
     ),
@@ -223,7 +223,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'ddecba9e9147c6c54bbbd3c9cd2573a42b100b73',
+            'reference' => '9650678f9f327946cd5a806e4c71e04b69ec0510',
             'dev_requirement' => false,
         ),
         'flarum/lang-english' => array(
@@ -332,6 +332,15 @@
             'install_path' => __DIR__ . '/../flarum/tags',
             'aliases' => array(),
             'reference' => '683ce7abb36fa1f89e747cecfb7e0756cff970bc',
+            'dev_requirement' => false,
+        ),
+        'fof/links' => array(
+            'pretty_version' => '1.0.3',
+            'version' => '1.0.3.0',
+            'type' => 'flarum-extension',
+            'install_path' => __DIR__ . '/../fof/links',
+            'aliases' => array(),
+            'reference' => '5c65cb23d056e365f03dea6b1b65273ae6f3487c',
             'dev_requirement' => false,
         ),
         'franzl/whoops-middleware' => array(
@@ -931,6 +940,12 @@
             'aliases' => array(),
             'reference' => 'b9d9d7ac480301f0cf718345daf591ddf475d9f1',
             'dev_requirement' => false,
+        ),
+        'sijad/flarum-ext-links' => array(
+            'dev_requirement' => false,
+            'replaced' => array(
+                0 => '*',
+            ),
         ),
         'swiftmailer/swiftmailer' => array(
             'pretty_version' => 'v6.3.0',
